@@ -1,0 +1,20 @@
+// colors
+$colors: red blue pink green;
+
+// loop!
+@each $color in $colors {
+  .#{$color} {
+    background: $color;
+  }
+}
+
+
+// styles
+body {
+  display: flex;
+}
+
+div {
+  flex: 1 1 auto;
+  height: 100vh;
+}
