@@ -1,5 +1,0 @@
-@for $vfoo from 35px to 85px {
-  .margin-#{vfoo}{
-    margin:$vfoo 10px;
-  }
-} 
